@@ -15,7 +15,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan.git
-        tag: 'v1.4.1'
+        tag: 'v2.0.0'
       - type: file
         path: org.hlwd.sonofman.metainfo.xml
       - type: file

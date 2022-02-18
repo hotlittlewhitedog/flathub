@@ -4,18 +4,18 @@
   <developer_name>hotlittlewhitedog</developer_name>
   <update_contact>hotlittlewhitedog@gmail.com</update_contact>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0+</project_license>
+  <project_license>GPL-3.0</project_license>
   <url type="homepage">https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan</url>
   <url type="bugtracker">https://gitlab.com/hotlittlewhitedog/BibleMultiTheSonOfMan/issues</url>
   <name>Sonofman</name>
-  <summary>Bible multi languages, free, offline, no advertising, in English, French, Italian, Spanish for Terminal.</summary>
+  <summary>Bible multi languages, free, offline, no advertising, in English, French, Italian, Spanish, Portuguese, German (partially) for Terminal.</summary>
   <description>
 <p># aka BibleMultiTheSonOfMan. 
 
 Easy to use with quick searches, parables, articles.
 As there is not a lot of Bible applications in Terminal, my app can be useful.
 
-Bibles included: King James Version, Segond, Ostervald, Diodati.
+Bibles included: King James Version, Segond, Ostervald, Diodati, Reina Valera, Almeida, Schlachter.
 
 Works with Python and Ncurses.
 The app is very low in memory and CPU usage.
@@ -26,10 +26,11 @@ Tribulations are at the door.
 ** All The Glory To God.
 
 For the story: the app was created after Bible Multi The Light (Android) and before Bible Multi The Life (Android, iPhone, iPad, Big Sur, Mac, Linux).
+You can find them on their stores and F-Droid.
 </p>
 <p>__
 * If you have problem in your Terminal when quitting the application, type "reset" to restore the terminal or CTRL-D.
-* If characters are missing, please install the utf8 characters with "sudo dpkg-reconfigure locales": select en_US, es_ES, fr_FR, it_IT (UTF8). But it also works with en_GB, fr_BE.
+* If characters are missing, please install the utf8 characters with "sudo dpkg-reconfigure locales": select en_US, es_ES, fr_FR, it_IT, pt_PT (UTF8). But it also works with en_GB, fr_BE.
 </p>
 </description>
   <categories>
@@ -79,6 +80,21 @@ For the story: the app was created after Bible Multi The Light (Android) and bef
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
-    <release version="1.4.1" date="2022-01-22"/>
+    <release version="2.0.0" date="2022-02-20">
+      <description>Rebirth of the project.</description>
+    </release>
+    <release version="1.4.1" date="2022-01-22">
+      <description>
+• English Bible: KJV 2000 (modern English)
+• French Bible: Ostervald
+• Portuguese Bible: Almeida Corrigida Fiel
+• German Bible: Schlachter
+• 2 color modes (with/without colors)
+• +Articles
+• +Youtubers
+• LEFT/RIGHT to browse articles/parables
+• Fixes
+      </description>
+    </release>
   </releases>
 </component>
